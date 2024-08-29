@@ -1,14 +1,5 @@
-# UNO Game
-This is my first python project based on Object Oriented programming. 
+Relatório: O código traz um jogo de UNO em Python, simulando uma partida entre um jogador e um computador. O jogo utiliza classes para representar cartas, baralhos e mãos dos jogadores, e possui uma lógica que permite alternar entre as jogadas do jogador e do computador. 
+As cartas são divididas em categorias, como números e ações, e o jogo inclui regras para jogar cartas de acordo com o topo da pilha e efeitos especiais de cartas. 
+A interação com o jogador é realizada via terminal, onde ele pode escolher entre jogar uma carta ou pegar uma do baralho. O objetivo do jogo é ser o primeiro a se livrar de todas as cartas, e o jogo termina quando um dos participantes ganha ou se um jogador não pode mais fazer uma jogada válida.
 
-UNO is card game played with a specially printed deck.
-Each player starts with 7 cards and the first one to finish all the cards WINS.
-There are two types of cards:
-	Number Cards- Ranging from 0-9
-	Action Cards- Skip, Reverse, Draw 2, Draw 4, Wild.
-There are 4 colors of cards:
-	Red, Green, Blue, Yellow.
-Total number of cards in deck:
-	Number cards(0-9): 2x4 each  
-	Skip, Reverse, Draw 2: 2x4 each
-	Draw 4, Wild: 4 (no colors)
+A aplicação do Jupyter Notebook neste código é relevante para demonstrar como ferramentas de desenvolvimento interativo podem ser utilizadas para testar e explorar o código. O Jupyter Notebook permite a execução passo a passo do código, o que facilita a visualização dos resultados das operações realizadas pelo jogo. Além disso, o Jupyter Notebook oferece uma interface interativa onde é possível integrar explicações, visualizações e o código em um único documento, facilitando a análise e a documentação do desenvolvimento do projeto. Para este caso, o Notebook poderia ser usado para experimentar diferentes variantes do jogo, modificar as regras ou adicionar novas funcionalidades, enquanto mantém um registro claro e documentado das alterações realizadas.
